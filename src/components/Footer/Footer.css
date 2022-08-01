@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.footer{
+    background-color: #1C232E;
+    height: 150px;
+    text-align: center;
+    padding:15px 0;
+    /* position: relative; */
+}
+
+
+.footer_content{
+    background-color: #1C232E;
+    color: #fff;
+    width: 100%;
+
+}
+
+.footer_icons{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:15px;
+    color:#B1B3B7;
+}
+
+.footer_icons a{ 
+    color:#B1B3B7;
+    font-size:20px;
+}
+
+.footer_icons a:hover{
+    opacity: .6;
+}

@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contacts{
+    min-height: calc(100vh - 264px);
+    background-color: #1C232E;
+}
+
+.contacts_row{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.contacts_row-left{
+    color: #fff;
+}
+
+.contacts_row-left h3{
+    font-size: 20px;
+    opacity: .7;
+}
+
+.icons{
+    display:flex;
+    align-items:center;
+    /* justify-content: center; */
+    gap:15px;
+    color:#B1B3B7;
+}
+
+.email a,
+.call h4{
+    text-decoration: none;
+    color: #676CDB;
+    cursor: pointer;
+}
+
+.email a:hover,
+.call h4:hover{
+    color: aqua;
+}
+
+.icons a{ 
+    color:#B1B3B7;
+    font-size:20px;
+}
+
+.icons a:hover{
+    opacity: .6;
+}
+
+.contacts_row-right{
+    background: #29313D;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    gap: 20px;
+}
+
+input{
+    padding: 12px;
+    background-color: transparent;
+    border: 1px solid #676CDB;
+    /* box-shadow: 10px 10px 10px 2px #676CDB inset; */
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus{
+    box-shadow: 0 5px 0 0 #676CDB;
+}
+
+textarea{
+    height: 150px;
+    padding: 12px;
+    background-color: transparent;
+    border: 1px solid #676CDB;
+    /* box-shadow: 10px 10px 10px 2px #676CDB inset; */
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+}
+
+textarea::-webkit-scrollbar{
+    width: 8px;
+}
+
+textarea::-webkit-scrollbar-thumb{
+    background-color: #676CDB;
+    border-radius: 10px;
+
+}
+
+textarea::-webkit-scrollbar-track{
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    border: 1px solid #676CDB;
+}
+
+button{
+    height: 50px;
+    background-color: rgba(0, 0, 0, .3);
+    color: #676CDB;
+    outline: none;
+    border: 1px solid #676CDB;
+    border-radius: 5px;
+    transition: .5s ease;
+}
+
+button:hover{
+    box-shadow: 0 5px 0 0 #676CDB;   
+}
+
+textarea:focus{
+    box-shadow: 0 5px 0 0 #676CDB;
+}
+
+
+@media(max-width:768px){
+    .contacts_row{
+        gap:20px;
+        flex-wrap: wrap;
+    }
+
+    .contacts_row-right{
+        width: 100%;
+    }
+}

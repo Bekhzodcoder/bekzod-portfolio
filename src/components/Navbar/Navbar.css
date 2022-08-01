@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
+.navbar{
+    background-color: #1C232E;
+    color: #fff;
+    z-index: 300;
+    width: 100%;
+}
+
+.nav-link.active{
+    color: red;
+}
+
+
+.navbar.active{
+    position:fixed;
+    top:0;
+}
+
+
+.navbar .logo{
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 5rem;
+    line-height: 1;
+    font-weight: bold;
+    background: linear-gradient(180deg, #5dadec 35%, #ef9645 42%, #dd2e44 60%, #ef9645 65%, #ffdc5d 60%, #676cdb 72%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.download a{
+    background-color:#676CDB;
+    text-decoration: none;
+    border: none;
+    gap: 1rem;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+    padding: 0.8rem 2.5rem;
+    padding-top: 1rem;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 1px rgb(0 0 0 / 15%);
+    display:flex;
+    align-items:center;
+    font-weight:500;
+    width: 180px;
+    color: #fff;
+}
+
+.download p{
+    padding:0;
+    margin:0;
+}
+
+.navbar-light .navbar-toggler{
+    border:1px solid #fff;
+}
+
+.navbar-light .navbar-toggler-icon{
+    background-image: url(../img//bar.png);
+}
