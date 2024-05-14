@@ -23,7 +23,7 @@ const Home = () => {
                             <p>
                                 <Typewriter 
                                     options ={{
-                                        strings:['HTML5', 'Css3','bootstrap', 'JavaScript', 'ReactJs', 'Reactstrapt', 'sass/scss', 'git/github', 'BEM', 'React-router-dom'],
+                                        strings:['HTML5', 'Css3','bootstrap', 'JavaScript', 'ReactJs', 'Redux', 'Reactstrapt', 'sass/scss', 'git/github', 'BEM', 'React-router-dom'],
                                         autoStart:true,
                                         loop:true
                                     }}

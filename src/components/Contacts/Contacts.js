@@ -26,7 +26,7 @@ const Projects = () => {
                             </div>
                             <div className='call'>
                                 <p>Call Me:</p>
-                                <h4>+998 91 440 88 70</h4>
+                                <h4>+998 93 600 30 11</h4>
                             </div>
                             <div className="icons">
                             <a href="https://www/t.me/Bekhzod_Istamov_0101"><BsTelegram /></a>

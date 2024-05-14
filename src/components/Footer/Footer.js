@@ -14,7 +14,7 @@ const Footer = () => {
                 <Container>
                     <div className='footer_content'>
                         <h1>BekhzodCoder</h1>      
-                        <p>3rd stage student of Bukhara State University, Bukhara Region, Republic of Uzbekistan</p>
+                        <p>He lives in the Bukhara region of the Republic of Uzbekistan</p>
                         <div className='footer_icons'>
                             <a href="https://www/t.me/Bekhzod_Istamov_0101"><BsTelegram /></a>
                             <a href="https://www.instagram.com/bekhzod_istamov/?hl=ru"><BsInstagram /></a>

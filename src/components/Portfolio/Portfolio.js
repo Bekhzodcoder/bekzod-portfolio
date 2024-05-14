@@ -4,6 +4,7 @@ import './Portfolio.css';
 import Data from './portfolioData';
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
 import 'react-loading-skeleton/dist/skeleton.css'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Portfolio = () => {
     return (
@@ -17,8 +18,14 @@ const Portfolio = () => {
                         {Data.map((data, index)=>(
                             <div className='portfolio_row' key={index}>
                                 <div className="portfolio_img">
-                                   
-                                    <img className="img-fluid" src={data.imgUrl || <Skeleton />} />
+                                <LazyLoadImage
+                alt={"student-img"}
+                effect="blur"
+                wrapperProps={{
+                    style: {transitionDelay: "0.4s"},
+                }}
+                src={data.imgUrl} />
+                                    {/* <img className="img-fluid" src={data.imgUrl || <Skeleton />} /> */}
                                 </div>
                                 <div className="portfolio_text">
                                     <a href="#"><h3>{data.paragrf || <Skeleton />}</h3></a>
